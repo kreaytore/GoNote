@@ -3,7 +3,7 @@ extends Control
 
 """
 GoNote: In-editor Notepad
-Author: @kreay_panem
+Author: @Kreaytore
 Created: December 14th, 2024
 """
 

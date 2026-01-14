@@ -27,5 +27,4 @@ res://
 
 **Remember, if you downloaded the .zip from git, and your file says `GoNote-main`, you need to delete the *-main* part of the filename. Otherwise, issues will occur, and the plugin won't work!**
 
-
 Thank you for installing!
