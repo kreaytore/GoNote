@@ -108,6 +108,7 @@ func _on_new_note_button_pressed():
 			var new_note = TextEdit.new()
 			new_note.set_name(new_text_filename)
 			new_note.set_placeholder(NOTE_PLACEHOLDER_TEXT)
+			new_note.wrap_mode = TextEdit.LINE_WRAPPING_BOUNDARY
 			
 			note_tab_container.add_child(new_note)
 			
@@ -220,6 +221,7 @@ func load_saved_notes():
 				var new_note_node = TextEdit.new()
 				new_note_node.set_name(new_node_name)
 				new_note_node.set_placeholder(NOTE_PLACEHOLDER_TEXT)
+				new_note_node.wrap_mode = TextEdit.LINE_WRAPPING_BOUNDARY
 				
 				var file_to_load = FileAccess.open(LOCAL_SAVED_NOTES_FILEPATH + note, FileAccess.READ)
 				var file_contents = file_to_load.get_as_text()
